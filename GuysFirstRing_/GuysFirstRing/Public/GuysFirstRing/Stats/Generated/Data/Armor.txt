@@ -1,0 +1,8 @@
+new entry "GFR_Ring_EldritchBlastExtra"
+type "Armor"
+using "_Ring"
+data "RootTemplate" "6a5daa7d-c436-43f1-8db5-d54a3e0f2d24"
+data "ObjectCategory" "Jewelry"
+data "ValueOverride" "7"
+data "Rarity" "Rare"
+data "PassivesOnEquip" "GFR_Ring_EldritchBlastExtra_Passive"
