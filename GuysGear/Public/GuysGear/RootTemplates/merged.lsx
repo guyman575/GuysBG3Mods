@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects"> Eldritch Ring
+					<attribute id="Description" type="TranslatedString" handle="h22d50f37g8bf3g4697g8368g2a590c3e7674" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6a335bbegd598g47ffg88a9g41a05b97b3dc" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_MAG_PHB_OfRegeneration_Ring" />		
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0fc9e159-d836-4f15-90aa-9e6f28abb00b" />
+					<attribute id="Name" type="LSString" value="GUY_Eldritch_Ring" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8379218b-db3e-4ff4-a4ea-5061b183acf4" /> Points to LOOT_GEN_Ring_B_Gem_A_Gold_1
+					<attribute id="Stats" type="FixedString" value="GUY_Eldritch_Ring" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> Knocker Backerer
+					<attribute id="Description" type="TranslatedString" handle="hee4f7872gf045g4579g9610g15fbb3366399" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h57acfa79gf4a6g43d3gbbb2g7ee5ba046236" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_AbsoluteRing" />		
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5a184285-4d7c-4591-b03d-af1fa325c2c8" />
+					<attribute id="Name" type="LSString" value="GUY_KnockerBackerer_Ring" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2a4b298c-88cb-4951-b244-2e65e6819945" /> Points to LOOT_GEN_Ring_B_Gem_B_Gold
+					<attribute id="Stats" type="FixedString" value="GUY_KnockerBackerer_Ring" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>		
+			</children>
+		</node>
+	</region>
+</save>
