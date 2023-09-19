@@ -4,14 +4,14 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>
-				<node id="GameObjects"> Eldritch Ring
+				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h22d50f37g8bf3g4697g8368g2a590c3e7674" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h6a335bbegd598g47ffg88a9g41a05b97b3dc" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_MAG_PHB_OfRegeneration_Ring" />		
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="0fc9e159-d836-4f15-90aa-9e6f28abb00b" />
 					<attribute id="Name" type="LSString" value="GUY_Eldritch_Ring" />
-					<attribute id="ParentTemplateId" type="FixedString" value="8379218b-db3e-4ff4-a4ea-5061b183acf4" /> Points to LOOT_GEN_Ring_B_Gem_A_Gold_1
+					<attribute id="ParentTemplateId" type="FixedString" value="8379218b-db3e-4ff4-a4ea-5061b183acf4" />
 					<attribute id="Stats" type="FixedString" value="GUY_Eldritch_Ring" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
@@ -19,21 +19,62 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
-				<node id="GameObjects"> Knocker Backerer
+				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="hee4f7872gf045g4579g9610g15fbb3366399" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h57acfa79gf4a6g43d3gbbb2g7ee5ba046236" version="1" />
-					<attribute id="Icon" type="FixedString" value="Item_LOOT_AbsoluteRing" />		
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Ring_D_Gold_A_1" />		
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="5a184285-4d7c-4591-b03d-af1fa325c2c8" />
 					<attribute id="Name" type="LSString" value="GUY_KnockerBackerer_Ring" />
-					<attribute id="ParentTemplateId" type="FixedString" value="2a4b298c-88cb-4951-b244-2e65e6819945" /> Points to LOOT_GEN_Ring_B_Gem_B_Gold
+					<attribute id="ParentTemplateId" type="FixedString" value="3344b3a0-eb1b-41e5-a7ab-2151a42c9a32" />
 					<attribute id="Stats" type="FixedString" value="GUY_KnockerBackerer_Ring" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<children>
 						<node id="GameMaster" />
 					</children>
-				</node>		
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h712fd1bfg30f0g46e4gb63bgef8594c9c89c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdc2b978bgb163g487cg9679g7c0942a1c9dc" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Amulet_Necklace_B_Gold_A_1" />	
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="27168910-1904-4303-96ef-51ec25fceb29" />
+					<attribute id="Name" type="LSString" value="GUY_WarlockSlot_Amulet" />
+					<attribute id="ParentTemplateId" type="FixedString" value="278ac367-34c4-441c-b4a6-8d7f11255e46" />
+					<attribute id="Stats" type="FixedString" value="GUY_WarlockSlot_Amulet" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="ha8bc00a3g756bg402cg855dg06cdaee9cbd0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h56548799g231dg4e20g9ca1gd3ab6a4789bc" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="b428632e-3137-47aa-8fae-ffddc26fc87c" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Magicstaff_B_0" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int64" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="81ce571d-c122-4490-9bba-a98daf46b0a8" />
+					<attribute id="Name" type="LSString" value="GUY_ProdigyStaff" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d25bc94a-5ee9-448f-9210-f2dad61ae7e5" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0420f126-cd1f-e735-4eb3-3795b3ee9313" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="GUY_ProdigyStaff" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="13672d0f-9b3a-4438-07d1-ff97abb0b504" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>

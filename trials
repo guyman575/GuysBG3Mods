@@ -1,0 +1,67 @@
+new entry "GUY_KnockerBackerer_Passive"
+type "PassiveData"
+data "DisplayName" "hf3ba8267g73b7g4904gb1f9gf8f260e406c7;1"
+data "Description" "hb9420431g85a6g4153gb121g41fc443e20a5;1"
+data "DescriptionParams" "DealDamage(1d4,Thunder)"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "HasFunctor(StatsFunctorType.Force)"
+data "StatsFunctors" "DealDamage(1d4,Thunder)"
+
+Result: Does not apply any bonus damage
+
+new entry "GUY_KnockerBackerer_Passive"
+type "PassiveData"
+data "DisplayName" "hf3ba8267g73b7g4904gb1f9gf8f260e406c7;1"
+data "Description" "hb9420431g85a6g4153gb121g41fc443e20a5;1"
+data "DescriptionParams" "DealDamage(1d4,Thunder)"
+data "StatsFunctorContext" "OnAttack"
+data "StatsFunctors" "DealDamage(1d4,Thunder)"
+
+Result: Always Applies bonus damage even if theres no knockback (obviously)
+
+new entry "GUY_KnockerBackerer_Passive"
+type "PassiveData"
+data "DisplayName" "hf3ba8267g73b7g4904gb1f9gf8f260e406c7;1"
+data "Description" "hb9420431g85a6g4153gb121g41fc443e20a5;1"
+data "DescriptionParams" "DealDamage(1d4,Thunder)"
+data "StatsFunctorContext" "OnPush"
+data "StatsFunctors" "DealDamage(1d4,Thunder)"
+
+Result: Works!
+
+
+
+new entry "GUY_PactBound_Ring"
+type "Armor"
+using "_Ring_Magic"
+data "RootTemplate" "d840046a-a665-4b52-86b2-edd94a2c93b5"
+data "ObjectCategory" "Jewelry"
+data "ValueOverride" "7"
+data "Rarity" "Rare"
+data "PassivesOnEquip" "GUY_PactBoundRing_Passive"
+new entry "GUY_PactBoundRing_Passive"
+type "PassiveData"
+data "DisplayName" "h7a2b0fd1ga54cg48e4ga051g3534bd77b906;1"
+data "Description" "h73ad190fg00a8g4f7bga424gc5f823fc08d8;1"
+data "DescriptionParams" "DealDamage(1d8,Force)"
+data "StatsFunctorContext" "OnDamage"
+data "StatsFunctors" "IF(Tagged('PACT_OF_THE_BLADE',GetActiveWeapon())):DealDamage(1d8,Force)"
+<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h58988f94gbce3g4dfdg9195g4551ccd11dec" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1e54af56g846cg4004g8678g77d35027a3cb" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Ring_D_Gold_A_1" />		
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d840046a-a665-4b52-86b2-edd94a2c93b5" />
+					<attribute id="Name" type="LSString" value="GUY_PactBound_Ring" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3344b3a0-eb1b-41e5-a7ab-2151a42c9a32" />
+					<attribute id="Stats" type="FixedString" value="GUY_PactBound_Ring" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+	<content contentuid="h58988f94gbce3g4dfdg9195g4551ccd11dec" version="1">Improves the power of a summoned pact weapon</content>
+	<content contentuid="h1e54af56g846cg4004g8678g77d35027a3cb" version="1">Pact Bound Ring</content>
+	<content contentuid="h7a2b0fd1ga54cg48e4ga051g3534bd77b906" version="1">Summoned Weapon Strength</content>
+	<content contentuid="h73ad190fg00a8g4f7bga424gc5f823fc08d8" version="1">The weapon you summon as your pact weapon deals an additional [1]</content>

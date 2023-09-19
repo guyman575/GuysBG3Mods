@@ -4,3 +4,22 @@ new subtable "1,1"
 object category "I_GUY_Eldritch_Ring",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_GUY_KnockerBackerer_Ring",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_GUY_WarlockSlot_Amulet",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_GUY_ProdigyStaff",1,0,0,0,0,0,0,0
+
+new treasuretable "GOB_Quartermaster"
+CanMerge 1
+new subtable "1,1"
+object category "I_GUY_WarlockSlot_Amulet",1,0,0,0,0,0,0,0
+
+new treasuretable "MOO_BugBearvendor_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_GUY_Eldritch_Ring",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
+CanMerge 1
+new subtable "1,1"
+object category "I_I_GUY_KnockerBackerer_Ring",1,0,0,0,0,0,0,0
